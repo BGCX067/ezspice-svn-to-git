@@ -1,0 +1,1022 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\EzSpice.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""l.KOR\\afxres.rc""          // 표준 구성 요소입니다.\r\n"
+    "#include ""l.KOR\\afxprint.rc""        // 인쇄 미리 보기 리소스\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.KOR\\afxribbon.rc""               // MFC 리본 및 컨트롤 막대 리소스\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\EzSpice.ico"
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+IDI_ICON1               ICON                    "res\\iCal.ico"
+IDI_ICON2               ICON                    "res\\iCal-empty.ico"
+IDI_ICON3               ICON                    "res\\iPhoto.ico"
+IDI_ICON4               ICON                    "res\\EzSpiceDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+IDB_TESTBITMAP          BITMAP                  "res\\CategoryLarge_2.bmp"
+IDB_MENULARGE           BITMAP                  "res\\menularge.bmp"
+IDB_MENUSMALL           BITMAP                  "res\\menusmall.bmp"
+IDB_MLARGE              BITMAP                  "res\\large.bmp"
+IDB_SMALL               BITMAP                  "res\\msmall.bmp"
+IDB_ELEMENT             BITMAP                  "res\\element.bmp"
+IDB_EZMAIN              BITMAP                  "res\\mainezspice.bmp"
+IDB_THEROY1             BITMAP                  "res\\Theroy\\theroy1.bmp"
+IDB_THEROY2             BITMAP                  "res\\Theroy\\theroy2.bmp"
+IDB_THEROY3             BITMAP                  "res\\Theroy\\theroy3.bmp"
+IDB_THEROY4             BITMAP                  "res\\Theroy\\theroy4.bmp"
+IDB_THEROY5             BITMAP                  "res\\Theroy\\theroy5.bmp"
+IDB_THEROY6             BITMAP                  "res\\Theroy\\theroy6.bmp"
+IDB_RESIS               BITMAP                  "res\\element\\resis.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "새로 만들기(&N)\tCtrl+N",          ID_FILE_NEW
+        MENUITEM "열기(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "닫기(&C)",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "인쇄 설정(&R)...",                ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "최근에 사용한 파일",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(&X)",                     ID_APP_EXIT
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "EzSpice 정보(&A)...",           ID_APP_ABOUT
+    END
+END
+
+IDR_EzSpiceTYPE MENU 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "새로 만들기(&N)\tCtrl+N",          ID_FILE_NEW
+        MENUITEM "열기(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "닫기(&C)",                      ID_FILE_CLOSE
+        MENUITEM "저장(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "다른 이름으로 저장(&A)...",           ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "인쇄(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "인쇄 미리 보기(&V)",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "인쇄 설정(&R)...",                ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "최근에 사용한 파일",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(&X)",                     ID_APP_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "실행 취소(&U)\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "붙여넣기(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "그리드 라인",                      ID_USER_GRIDLINE
+        MENUITEM "진행방향",                        ID_DECIDE
+        MENUITEM "그라운드 지역",                     ID_GROUND
+        MENUITEM "라인 번호",                       ID_USER_LINENUMBER
+    END
+    POPUP "창(&W)"
+    BEGIN
+        MENUITEM "새 창(&N)",                     ID_WINDOW_NEW
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "EzSpice 정보(&A)...",           ID_APP_ABOUT
+    END
+    POPUP "하이퍼링크"
+    BEGIN
+        MENUITEM "Send e-mail",                 ID_USER_SENDMAIL
+        MENUITEM "Visit site",                  ID_USER_VISITSITE
+        MENUITEM "Launch Noteped",              ID_USER_NOTEPED
+    END
+    POPUP "가상장비"
+    BEGIN
+        MENUITEM "오실로스코프",                      ID_USER_DEVICE_OSCIL
+        MENUITEM "디지털미티미터",                     ID_USER_DEVICE_DISIT
+        MENUITEM "함수발생기",                       ID_USER_DEVICE_FUNC
+        MENUITEM "파워서플라이",                      ID_USER_DEVICE_POWER
+    END
+    POPUP "상태"
+    BEGIN
+        MENUITEM "언두",                          ID_USER_STATE_UNDO
+        MENUITEM "리두",                          ID_USER_STATE_REDO
+        MENUITEM "확대",                          ID_USER_STATE_INCREASE
+        MENUITEM "축소",                          ID_USER_STATE_DECREASE
+        MENUITEM "교차",                          ID_JUNCTION
+    END
+    POPUP "도킹 메뉴"
+    BEGIN
+        MENUITEM "소자 트리 뷰",                     ID_USER_DOCKING_ELETREEVIEW
+        MENUITEM "출력 뷰",                        ID_USER_DOCKING_OUTPUTVIEW
+        MENUITEM "소자 뷰",                        ID_USER_DOCKING_ELEVIEW
+    END
+    POPUP "소자 편집"
+    BEGIN
+        MENUITEM "소자 편집창",                      ID_USER_ELEMENT_EDITDLG
+        MENUITEM "응답 설정장",                      ID_EDIT_TRANSIENT
+    END
+    POPUP "소자 검색"
+    BEGIN
+        MENUITEM "집적 검색",                       ID_USER_SEARCH_DIRECT
+        MENUITEM "서치 검색",                       ID_USER_SRARCH_DETAIL
+    END
+    POPUP "시뮬레이션"
+    BEGIN
+        MENUITEM "가동",                          ID_USER_SIMUL_START
+        MENUITEM "단일프로브",                       ID_USER_SIMUL_PROV1
+        MENUITEM "이중프로브",                       ID_USER_SIMUL_PROV2
+    END
+    POPUP "수식"
+    BEGIN
+        MENUITEM "수식보기",                        ID_USER_MATH
+    END
+END
+
+IDR_POPUP_EDIT MENU 
+BEGIN
+    POPUP "편집"
+    BEGIN
+        MENUITEM "잘라내기(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "붙여넣기(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU 
+BEGIN
+    MENUITEM "새 창(&N)",                     ID_WINDOW_NEW
+END
+
+IDR_POPUP_SORT MENU 
+BEGIN
+    POPUP "정렬"
+    BEGIN
+        MENUITEM "사전순 정렬(&S)",                  ID_SORTING_SORTALPHABETIC
+        MENUITEM "형식별 정렬(&T)",                  ID_SORTING_SORTBYTYPE
+        MENUITEM "액세스별 정렬(&E)",                 ID_SORTING_SORTBYACCESS
+        MENUITEM "형식별 그룹화(&Y)",                 ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU 
+BEGIN
+    POPUP "탐색기"
+    BEGIN
+        MENUITEM "열기(&O)",                      ID_OPEN
+        MENUITEM "연결 프로그램(&W)....",             ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "컴파일(&C)",                     ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "제거(&R)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "속성(&P)...",                   ID_PROPERTIES
+    END
+END
+
+IDR_OUTPUT_POPUP MENU 
+BEGIN
+    POPUP "팝업"
+    BEGIN
+        MENUITEM "복사(&C)",                      ID_EDIT_COPY
+        MENUITEM "지우기(&C)",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "숨기기(&H)",                     ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_SIMUAL_MENU MENU 
+BEGIN
+    MENUITEM "응답 설정",                       ID_SIMUAL_SETTING
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EzSpice 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "EzSpice, 버전 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "확인",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_ELEMENTDLG DIALOGEX 0, 0, 270, 537
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LISTCTRL,"SysListView32",WS_TABSTOP,7,7,256,523,WS_EX_TRANSPARENT
+END
+
+IDD_ELEMENTEDITDLG DIALOGEX 0, 0, 474, 321
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "소자 편집 창"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "추가",IDC_INSERT,224,19,50,19
+    COMBOBOX        IDC_ELEMENTGROUP,70,70,139,138,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "확인",IDC_USER_OK,390,7,77,32
+    PUSHBUTTON      "취소",IDC_USER_CANCEL,390,40,77,32
+    PUSHBUTTON      "도움말",IDC_USER_HLEP,390,74,77,32
+    COMBOBOX        IDC_USERGROUP,70,22,139,71,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "현재 그룹 : ",IDC_STATIC,23,23,42,8
+    GROUPBOX        "그룹 정보",IDC_STATIC,7,7,330,37
+    GROUPBOX        "세부 정보",IDC_STATIC,8,52,380,262
+    PUSHBUTTON      "삭제",IDC_DELETE,279,19,50,19
+    LTEXT           "소자 그룹 : ",IDC_STATIC,23,72,42,8
+    CONTROL         "",IDC_ELEMENTLIST,"SysListView32",WS_BORDER | WS_TABSTOP,69,89,139,149,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "선택한 그룹",IDC_GROUPDISPLAY,289,73,43,8
+    LTEXT           "소자 정보 :",IDC_STATIC,23,246,40,8
+    CONTROL         "",IDC_GROUPLISTDISPLAY,"SysListView32",WS_BORDER | WS_TABSTOP,239,89,139,149,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_SUBSTRING,69,245,139,60,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_ELEMENTSEARCH DIALOGEX 0, 0, 224, 256
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "소자 검색"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SEARCHEDIT,18,25,122,16,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "검색",IDC_SEARCH,152,24,57,18
+    CONTROL         "Start",IDC_FILTER1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,30,63,32,10
+    CONTROL         "Anywhere",IDC_FILTER2,"Button",BS_AUTORADIOBUTTON,88,63,49,10
+    CONTROL         "End",IDC_FILTER3,"Button",BS_AUTORADIOBUTTON,156,63,28,10
+    PUSHBUTTON      "추가",IDC_SEARCH_INSERT,41,228,57,19
+    PUSHBUTTON      "취소",IDC_SEARCH_CLOSE,123,228,57,19
+    LTEXT           "구성 요소 검색 :",IDC_STATIC,15,13,61,8
+    GROUPBOX        "",IDC_STATIC,7,3,210,221
+    GROUPBOX        "필터",IDC_STATIC,15,50,191,31
+    LISTBOX         IDC_SEARCHLIST,16,86,190,113,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Static",IDC_TOTALCOUNT,84,204,58,14
+END
+
+IDD_GROUPINSERT DIALOGEX 0, 0, 254, 41
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "그룹 추가"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,136,27,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "확인",IDOK,146,8,50,26
+    PUSHBUTTON      "취소",IDCANCEL,197,8,50,26
+END
+
+IDD_SIMULDLG DIALOGEX 0, 0, 834, 438
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Simulation - EzSpice1"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_SIMULSTRING,7,336,304,95,LBS_SORT | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CONTROL         "",IDC_INFOTAB,"SysTabControl32",TCS_FIXEDWIDTH,318,336,509,96,WS_EX_STATICEDGE
+    GROUPBOX        "Control",IDC_GROUP_CONTROL,7,7,123,323
+    PUSHBUTTON      "확대",IDC_ZOONIN,13,19,27,19
+    PUSHBUTTON      "축소",IDC_ZOOMOUT,41,19,27,19
+    PUSHBUTTON      "수식",IDC_MODIFICATION,97,19,27,19
+    PUSHBUTTON      "플로터",IDC_PLOTTER,69,19,27,19
+    GROUPBOX        "시뮬결과",IDC_GROUP_SIMUL,15,47,105,87
+    CONTROL         "첫번째 결과",IDC_RESULT,"Button",BS_AUTORADIOBUTTON,33,64,58,10
+    GROUPBOX        "파형",IDC_GROUP_WAVE,140,7,687,322
+END
+
+IDD_MULTMITER DIALOGEX 0, 0, 264, 119
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Digital Multimeter - Virtual"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "DC 전압",IDC_DC_VOLTAGE,11,63,47,17
+    PUSHBUTTON      "AC 전압",IDC_AC_VOLTAGE,64,63,47,17
+    RTEXT           "",IDC_MULTIMETERVIEW,7,8,159,40,SS_SUNKEN,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    GROUPBOX        "Function",IDC_STATIC,7,51,160,61
+    PUSHBUTTON      "AC 전류",IDC_AC_ELECTRIC,11,87,47,17,WS_DISABLED
+    PUSHBUTTON      "옴",IDC_OHM,64,86,47,17,WS_DISABLED
+    PUSHBUTTON      "DC 전류",IDC_DC_ELECTRIC,116,63,47,17,WS_DISABLED
+    COMBOBOX        IDC_MULTCOMBO,186,80,57,64,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Input",IDC_STATIC,174,51,83,61
+    LTEXT           "[Prov]",IDC_STATIC,187,66,44,9
+    GROUPBOX        "Range",IDC_STATIC,174,5,83,43
+    PUSHBUTTON      "Auto",IDC_BUTTON1,185,21,30,15,WS_DISABLED
+    PUSHBUTTON      "UP",IDC_BUTTON2,224,12,21,15,WS_DISABLED
+    PUSHBUTTON      "DN",IDC_BUTTON4,224,29,21,15,WS_DISABLED
+END
+
+IDD_RESULT DIALOGEX 0, 0, 289, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "알림"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,178,106,50,14
+    PUSHBUTTON      "취소",IDCANCEL,232,106,50,14
+END
+
+IDD_TRANSIENT DIALOGEX 0, 0, 185, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Transient Analysis"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,55,17,53,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,55,39,53,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "확인",IDOK,117,7,61,19
+    PUSHBUTTON      "취소",IDCANCEL,117,27,61,19
+    PUSHBUTTON      "도움말",ID_TR_HELP,117,47,61,19
+    LTEXT           "Hez / Max",IDC_SEC,15,19,33,8
+    LTEXT           "Volt / Max",IDC_VOLT,15,42,33,8
+END
+
+IDD_NETWORKTHEROY DIALOGEX 0, 0, 647, 367
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Network theory"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Contents",IDC_STATIC,7,7,119,353
+    LISTBOX         IDC_CONTENT,13,18,106,336,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    GROUPBOX        "Theory",IDC_STATIC,142,7,498,353
+    CONTROL         364,IDC_THEROYPICTURE,"Static",SS_BITMAP | SS_NOTIFY | SS_REALSIZEIMAGE | SS_SUNKEN,151,18,335,317
+END
+
+IDD_FUNC DIALOGEX 0, 0, 173, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Function Generator - Virtual"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_HZ,15,16,131,29,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         "",IDC_SPIN,"msctls_updown32",UDS_ARROWKEYS,147,16,13,29
+    GROUPBOX        "Static",IDC_STATIC,7,7,159,58
+    PUSHBUTTON      "◀",IDC_LEFT,16,47,42,14
+    PUSHBUTTON      "▶",IDC_RIGHT,104,47,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT,60,47,42,14
+    GROUPBOX        "Waveform",IDC_STATIC,7,67,99,53
+    PUSHBUTTON      "Sign",IDC_SIGN,9,83,30,27,WS_DISABLED
+    PUSHBUTTON      "Squa",IDC_SQUA,41,83,30,27,WS_DISABLED
+    GROUPBOX        "Control",IDC_STATIC,108,67,58,53
+    DEFPUSHBUTTON   "Tria",IDC_TRIA,73,83,30,27,WS_DISABLED
+    DEFPUSHBUTTON   "SEND",IDC_SEND,113,80,46,33
+END
+
+IDD_POWER DIALOGEX 0, 0, 234, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Power supply"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,128,33,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_HELPLE DIALOGEX 0, 0, 183, 206
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Example Advice"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EXAPLE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,169,192
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "EzSpice.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "EzSpice.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_ELEMENTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 530
+    END
+
+    IDD_ELEMENTEDITDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 467
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 314
+    END
+
+    IDD_ELEMENTSEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 217
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 249
+    END
+
+    IDD_GROUPINSERT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_SIMULDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 827
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 431
+    END
+
+    IDD_MULTMITER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_RESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_TRANSIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_NETWORKTHEROY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 640
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 360
+    END
+
+    IDD_FUNC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_POWER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_HELPLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG5                PNG                     "res\\element\\resis.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE를 초기화할 수 없습니다. OLE 라이브러리 버전이 올바른지 확인하십시오."
+    IDS_RIBBON_STATE        "상태"
+    IDS_RIBBON_GRIDVIEW     "그리드 라인"
+    IDS_RIBBON_NEWWINDOW    "새로운 창"
+    IDS_RIBBON_DOCKING      "도킹"
+    IDS_RIBBON_ELEMENTPANE  "소자 뷰"
+    IDS_RIBBON_OUTPUTPANE   "출력 뷰"
+    IDS_RIBBON_ELEMENTTREEVIEW "소자 트리 뷰"
+    IDS_RIBBON_SETTING      "설정"
+    IDS_RIBBON_ELEMENTSETTING "소자 도구 설정"
+    IDS_RIBBON_USERSETTING  "유저 설정"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "EzSpice"
+    IDR_EzSpiceTYPE         "\nEzSpice\nEzSpice\n\n\nEzSpice.Document\nEzSpice.Document"
+    IDS_WINDOWS_MANAGER     "창(&W)..."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "EzSpice"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 만듭니다.\n새로 만들기"
+    ID_FILE_OPEN            "기존 문서를 엽니다.\n열기"
+    ID_FILE_CLOSE           "활성 문서를 닫습니다.\n닫기"
+    ID_FILE_SAVE            "활성 문서를 저장합니다.\n저장"
+    ID_FILE_SAVE_AS         "활성 문서를 새 이름으로 저장합니다.\n다른 이름으로 저장"
+    ID_FILE_PAGE_SETUP      "인쇄 옵션을 변경합니다.\n페이지 설정"
+    ID_FILE_PRINT_SETUP     "프린터 및 인쇄 옵션을 변경합니다.\n인쇄 설정"
+    ID_FILE_PRINT           "활성 문서를 인쇄합니다.\n인쇄"
+    ID_FILE_PRINT_DIRECT    "현재 옵션을 사용하여 활성 문서를 인쇄합니다.\n빠른 인쇄"
+    ID_FILE_PRINT_PREVIEW   "전체 페이지를 표시합니다.\n인쇄 미리 보기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보, 버전 번호, 저작권을 표시합니다.\n정보"
+    ID_APP_EXIT             "문서를 저장할지를 묻고 응용 프로그램을 끝냅니다.\n끝내기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE2       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE3       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE4       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE5       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE6       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE7       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE8       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE9       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE10      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE11      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE12      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE13      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE14      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE15      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE16      "현재 문서를 엽니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다.\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다.\n이전 창"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "활성 문서에 대해 다른 창을 엽니다.\n새 창"
+    ID_WINDOW_ARRANGE       "창 맨 아래에 아이콘을 정렬합니다.\n아이콘 정렬"
+    ID_WINDOW_CASCADE       "창이 겹치도록 계단식으로 정렬합니다.\n계단식 창 배열"
+    ID_WINDOW_TILE_HORZ     "창이 겹치지 않도록 바둑판식으로 정렬합니다.\n바둑판식 창 배열"
+    ID_WINDOW_TILE_VERT     "창이 겹치지 않도록 바둑판식으로 정렬합니다.\n바둑판식 창 배열"
+    ID_WINDOW_SPLIT         "활성 창을 여러 개의 창으로 분할합니다.\n분할"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 영역을 지웁니다.\n지우기"
+    ID_EDIT_CLEAR_ALL       "모두 지웁니다.\n모두 지우기"
+    ID_EDIT_COPY            "선택 영역을 복사하여 클립보드에 넣습니다.\n복사"
+    ID_EDIT_CUT             "선택 영역을 잘라내어 클립보드에 넣습니다.\n잘라내기"
+    ID_EDIT_FIND            "지정한 텍스트를 찾습니다.\n찾기"
+    ID_EDIT_PASTE           "클립보드 내용을 삽입합니다.\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막 작업을 반복합니다.\n반복"
+    ID_EDIT_REPLACE         "특정 텍스트를 다른 텍스트로 바꿉니다.\n바꾸기"
+    ID_EDIT_SELECT_ALL      "전체 문서를 선택합니다.\n모두 선택"
+    ID_EDIT_UNDO            "마지막 작업 실행을 취소합니다.\n실행 취소"
+    ID_EDIT_REDO            "이전에 실행 취소된 작업을 다시 실행합니다.\n다시 실행"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 표시하거나 숨깁니다.\n도구 모음 설정/해제"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 숨깁니다.\n상태 표시줄 설정/해제"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창 크기를 변경합니다."
+    AFX_IDS_SCMOVE          "창 위치를 변경합니다."
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 축소합니다."
+    AFX_IDS_SCMAXIMIZE      "창을 전체 화면 크기로 확대합니다."
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다."
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다."
+    AFX_IDS_SCCLOSE         "문서를 저장할 것인지 확인하고 활성 창을 닫습니다."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 보통 크기로 복원합니다."
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다."
+    AFX_IDS_MDICHILD        "이 창을 활성화 합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다.\n미리 보기 취소"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATUS_PANE1        "창 1"
+    IDS_STATUS_PANE2        "창 2"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILE_VIEW           "파일 뷰"
+    IDS_CLASS_VIEW          "소자 트리 뷰"
+    IDS_OUTPUT_WND          "출력"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXPLORER            "탐색기"
+    IDS_EDIT_MENU           "편집"
+    IDS_RIBBON_NEWELEMENT   "소자 검색"
+    IDS_RIBBON_SIMULATION   "시뮬레이션"
+    IDS_RIBBON_VIRTUALDEVICE "가상 장비"
+    IDS_RIBBON_REDO         "Redo"
+    IDS_RIBBON_UNDO         "Undo"
+    IDS_RIBBON_INCREASE     "확대"
+    IDS_RIBBON_DECREASE     "축소"
+    IDS_RIBBON_OPERATION    "시뮬레이션 가동"
+    IDS_RIBBON_SINGLEPROV   "단일 프로브"
+    IDS_RIBBON_OSCILOSCOPE  "오실로스코프"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_STYLE_DESC   "Office 2007 테마 중 하나를 선택합니다."
+    IDS_RIBBON_STATUSBAR    "상태 표시줄"
+    IDS_RIBBON_VIEW         "보기"
+    IDS_BUILD_TAB           "빌드"
+    IDS_DEBUG_TAB           "디버그"
+    IDS_FIND_TAB            "찾기"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_FILE         "파일"
+    IDS_RIBBON_NEW          "새로 만들기(&N)"
+    IDS_RIBBON_OPEN         "열기(&O)..."
+    IDS_RIBBON_SAVE         "저장(&S)"
+    IDS_RIBBON_SAVEAS       "다른 이름으로 저장(&A)..."
+    IDS_RIBBON_PRINT        "인쇄"
+    IDS_RIBBON_PRINT_LABEL  "문서 미리 보기 및 인쇄"
+    IDS_RIBBON_PRINT_QUICK  "빠른 인쇄(&Q)"
+    IDS_RIBBON_PRINT_PREVIEW "인쇄 미리 보기(&V)"
+    IDS_RIBBON_PRINT_SETUP  "인쇄 설정(&U)"
+    IDS_RIBBON_CLOSE        "닫기(&C)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_RECENT_DOCS  "최근 문서"
+    IDS_RIBBON_EXIT         "끝내기(&X)"
+    IDS_RIBBON_HOME         "홈(&H)"
+    IDS_RIBBON_CLIPBOARD    "클립보드\nd"
+    IDS_RIBBON_PASTE        "붙여넣기\nv"
+    IDS_RIBBON_CUT          "자르기\nx"
+    IDS_RIBBON_COPY         "복사\nc"
+    IDS_RIBBON_SELECTALL    "모두 선택\na"
+    IDS_RIBBON_WINDOW       "창\nw"
+    IDS_RIBBON_WINDOWS      "창\ni"
+    IDS_RIBBON_STYLE        "스타일"
+    IDS_RIBBON_STYLE_TIP    "비주얼 스타일을 수정합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_MULTIMETER   "디지털멀티미터"
+    IDS_RIBBON_FUNCTION     "함수발생기"
+    IDS_RIBBON_POWERSUPPLY  "파워서플라이"
+    IDS_RIBBON_DIRECTSEARCH "바로 찾기"
+    IDS_RIBBON_DETAILSEARCH "상세 찾기"
+    IDS_RIBBON_MULTPROV     "이중 프로브"
+    IDS_RIBBON_LINK         "하이퍼링크"
+    IDS_RIBBON_SHOW         "보기"
+    IDS_RIBBON_DECIDE       "진행방향 결정"
+    IDS_RIBBON_GROUND       "그라운드 지역"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_USER_GRIDLINE        "화면에 그리드 라인을 활성화 합니다."
+    ID_USER_SENDMAIL        "개발자에게 E-Mail을 보냅니다."
+    ID_USER_NOTEPED         "메모장을 활성화 합니다."
+    ID_USER_VISITSITE       "데이터 시트를 검색합니다"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_USER_DEVICE_OSCIL    "오실로스코프를 실행합니다."
+    ID_USER_DEVICE_DISIT    "디지털멀티미터를 실행합니다."
+    ID_USER_DEVICE_FUNC     "함수발생기를 실행합니다."
+    ID_USER_DEVICE_POWER    "파워서플라이를 실행합니다."
+    ID_USER_STATE_REDO      "복원한 상태를 되돌립니다."
+    ID_USER_STATE_UNDO      "상태를 되돌립니다."
+    ID_USER_STATE_INCREASE  "소자 구성창을 확대합니다."
+    ID_USER_STATE_DECREASE  "소자 구성창을 축소합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_USER_DOCKING_ELETREEVIEW "소자 트리뷰를 도킹합니다."
+    ID_USER_DOCKING_OUTPUTVIEW "출력 뷰를 도킹합니다."
+    ID_USER_DOCKING_ELEVIEW "소자 뷰를 도킹합니다."
+    ID_USER_ELEMENT_EDITDLG "소자 편집창을 엽니다."
+    ID_USER_SRARCH_DETAIL   "소자를 자세히 검색합니다."
+    ID_USER_SEARCH_DIRECT   "집적 소자를 검색합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_USER_SIMUL_START     "시뮬레이션을 시작합니다."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\EzSpice.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "l.KOR\afxres.rc"          // 표준 구성 요소입니다.
+#include "l.KOR\afxprint.rc"        // 인쇄 미리 보기 리소스
+#if !defined(_AFXDLL)
+#include "l.KOR\afxribbon.rc"               // MFC 리본 및 컨트롤 막대 리소스
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

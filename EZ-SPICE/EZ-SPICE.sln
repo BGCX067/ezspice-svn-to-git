@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EzSpice", "EzSpice\EzSpice.vcproj", "{4AE90C88-797E-47D0-A9F5-9141157D36DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Element", "Element\Element.vcproj", "{BBC0444B-C595-4AB7-B0F3-7B045468D562}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ociloscope", "Ociloscope\Ociloscope.vcproj", "{89B3ED53-6D05-4923-B217-CC7F6532C586}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE90C88-797E-47D0-A9F5-9141157D36DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AE90C88-797E-47D0-A9F5-9141157D36DF}.Debug|Win32.Build.0 = Debug|Win32
+		{4AE90C88-797E-47D0-A9F5-9141157D36DF}.Release|Win32.ActiveCfg = Release|Win32
+		{4AE90C88-797E-47D0-A9F5-9141157D36DF}.Release|Win32.Build.0 = Release|Win32
+		{BBC0444B-C595-4AB7-B0F3-7B045468D562}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBC0444B-C595-4AB7-B0F3-7B045468D562}.Debug|Win32.Build.0 = Debug|Win32
+		{BBC0444B-C595-4AB7-B0F3-7B045468D562}.Release|Win32.ActiveCfg = Release|Win32
+		{BBC0444B-C595-4AB7-B0F3-7B045468D562}.Release|Win32.Build.0 = Release|Win32
+		{89B3ED53-6D05-4923-B217-CC7F6532C586}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89B3ED53-6D05-4923-B217-CC7F6532C586}.Debug|Win32.Build.0 = Debug|Win32
+		{89B3ED53-6D05-4923-B217-CC7F6532C586}.Release|Win32.ActiveCfg = Release|Win32
+		{89B3ED53-6D05-4923-B217-CC7F6532C586}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

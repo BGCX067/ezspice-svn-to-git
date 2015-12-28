@@ -1,0 +1,668 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\Ociloscope.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""l.KOR\\afxres.rc""          // 표준 구성 요소입니다.\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.KOR\\afxprint.rc""                // 인쇄 미리 보기 리소스\r\n"
+    "#include ""l.KOR\\afxribbon.rc""               // MFC 리본 및 컨트롤 막대 리소스\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Ociloscope.ico"
+IDR_OciloscopeTYPE      ICON                    "res\\OciloscopeDoc.ico"
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+IDB_LARGE               BITMAP                  "res\\large.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "새로 만들기(&N)\tCtrl+N",          ID_FILE_NEW
+        MENUITEM "열기(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "저장(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "다른 이름으로 저장(&A)...",           ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "최근에 사용한 파일",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(&X)",                     ID_APP_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "실행 취소(&U)\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "붙여넣기(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "Ociloscope 정보(&A)...",        ID_APP_ABOUT
+    END
+    POPUP "보기"
+    BEGIN
+        MENUITEM "확대",                          ID_ZOOMIN
+        MENUITEM "축소",                          ID_ZOOMOUT
+        MENUITEM "리플래쉬",                        ID_REFLESH
+    END
+    POPUP "추가정보"
+    BEGIN
+        MENUITEM "플로터",                         ID_FLOTTER
+        MENUITEM "수식보기",                        ID_MATH
+        MENUITEM "최대 주기",                       ID_MAXFREQUENCY
+        MENUITEM "최대 전압",                       ID_MAXFREQUENCY
+    END
+    POPUP "하드웨어"
+    BEGIN
+        MENUITEM "장치 연결",                       ID_HARDWARE_CONNECT
+        MENUITEM "오실로 열기",                      ID_HARDWARE_OCIL
+        MENUITEM "디지털 멀티미터",                    ID_HARDWARE_DISIT
+        MENUITEM "함수 발생기",                      ID_HARDWARE_FUNC
+        MENUITEM "파워서플라이",                      ID_HARDWARE_POWER
+    END
+END
+
+IDR_POPUP_EDIT MENU 
+BEGIN
+    POPUP "편집"
+    BEGIN
+        MENUITEM "잘라내기(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "붙여넣기(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU 
+BEGIN
+    MENUITEM "새 창(&N)",                     ID_WINDOW_NEW
+END
+
+IDR_OUTPUT_POPUP MENU 
+BEGIN
+    POPUP "팝업"
+    BEGIN
+        MENUITEM "복사(&C)",                      ID_EDIT_COPY
+        MENUITEM "지우기(&C)",                     ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "숨기기(&H)",                     ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_FLOTTER_MENU MENU 
+BEGIN
+    MENUITEM "플로터 A",                       ID_FLOTTERA
+    MENUITEM "플로터 B",                       ID_FLOTTERB
+    MENUITEM "플로터 C",                       ID_FLOTTERC
+END
+
+IDR_OCLIL_MENU MENU 
+BEGIN
+    MENUITEM "증폭률",                         ID_AMPLI
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ociloscope 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Ociloscope, 버전 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "확인",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_OCILOSCOPE_FORM DIALOGEX 0, 0, 320, 200
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 160, 169
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Plotter"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "A",IDC_STATIC,7,3,146,24
+    LTEXT           "x :",IDC_STATIC,16,12,10,8
+    EDITTEXT        IDC_PLOTTER_A_X,28,10,50,14,ES_AUTOHSCROLL
+    LTEXT           "y :",IDC_STATIC,84,12,10,8
+    EDITTEXT        IDC_PLOTTER_A_Y,96,10,50,14,ES_AUTOHSCROLL
+    GROUPBOX        "B",IDC_STATIC,7,30,146,24
+    LTEXT           "x :",IDC_STATIC,16,40,10,8
+    EDITTEXT        IDC_PLOTTER_B_X,28,37,50,14,ES_AUTOHSCROLL
+    LTEXT           "y :",IDC_STATIC,84,40,10,8
+    EDITTEXT        IDC_PLOTTER_B_Y,96,37,50,14,ES_AUTOHSCROLL
+    GROUPBOX        "A - B",IDC_STATIC,7,88,146,24
+    LTEXT           "x :",IDC_STATIC,16,97,10,8
+    LTEXT           "y :",IDC_STATIC,84,97,10,8
+    LTEXT           "0m",IDC_PLOTTER_AB_X,29,97,44,8
+    LTEXT           "0m",IDC_PLOTTER_AB_Y,96,97,44,8
+    GROUPBOX        "C",IDC_STATIC,7,57,146,24
+    LTEXT           "x :",IDC_STATIC,16,67,10,8
+    EDITTEXT        IDC_PLOTTER_CX,28,64,50,14,ES_AUTOHSCROLL
+    LTEXT           "y :",IDC_STATIC,84,67,10,8
+    EDITTEXT        IDC_PLOTTER_CY,96,64,50,14,ES_AUTOHSCROLL
+    GROUPBOX        "B - C",IDC_STATIC,7,113,146,24
+    LTEXT           "x :",IDC_STATIC,16,122,10,8
+    LTEXT           "y :",IDC_STATIC,84,122,10,8
+    LTEXT           "0m",IDC_PLOTTER_BC_X,29,122,44,8
+    LTEXT           "0m",IDC_PLOTTER_BC_Y,96,122,44,8
+    GROUPBOX        "C - A",IDC_STATIC,8,138,146,24
+    LTEXT           "x :",IDC_STATIC,17,147,10,8
+    LTEXT           "y :",IDC_STATIC,85,147,10,8
+    LTEXT           "0m",IDC_PLOTTER_CA_X,30,147,44,8
+    LTEXT           "0m",IDC_PLOTTER_CA_Y,97,147,44,8
+END
+
+IDD_FUNC DIALOGEX 0, 0, 173, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Function Generator - Virtual"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "10Khz",IDC_10Khertz,15,47,42,14
+    PUSHBUTTON      "1Khz",IDC_1Khertz,60,47,42,14
+    PUSHBUTTON      "100hz",IDC_100hertz,104,47,42,14
+    PUSHBUTTON      "10hz",IDC_10hertz,15,64,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT,60,64,86,14
+    PUSHBUTTON      "Sign",IDC_SIGN,9,100,30,27,BS_MULTILINE
+    PUSHBUTTON      "Squa",IDC_SQUA,41,100,30,27,BS_MULTILINE
+    PUSHBUTTON      "Tria",IDC_TRIA,73,100,30,27,BS_MULTILINE
+    DEFPUSHBUTTON   "REQUEST",IDC_SEND,113,97,46,33
+    EDITTEXT        IDC_HZ,15,16,131,29,ES_RIGHT | ES_AUTOHSCROLL | WS_DISABLED,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         "",IDC_SPIN,"msctls_updown32",UDS_ARROWKEYS,147,16,17,29
+    GROUPBOX        "Property",IDC_STATIC,7,7,159,77
+    GROUPBOX        "Waveform",IDC_STATIC,7,84,99,53
+    GROUPBOX        "Control",IDC_STATIC,108,84,58,53
+END
+
+IDD_POWER DIALOGEX 0, 0, 173, 101
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Power Supply"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "1V",IDC_1V,91,46,50,20
+    PUSHBUTTON      "0.1V",IDC_FLOAT1V,91,70,50,20
+    EDITTEXT        IDC_VOLTAGE,15,16,131,29,ES_RIGHT | ES_AUTOHSCROLL | WS_DISABLED,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    GROUPBOX        "Property",IDC_STATIC,7,7,159,87
+    CONTROL         "",IDC_SPIN,"msctls_updown32",UDS_ARROWKEYS,147,17,15,26
+    PUSHBUTTON      "ON",IDC_ON,27,46,50,20,BS_MULTILINE
+    PUSHBUTTON      "OFF",IDC_OFF,27,70,50,20,BS_MULTILINE
+END
+
+IDD_MULTMETER DIALOGEX 0, 0, 174, 130
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Digital Multimeter"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "1㏁",IDC_1Mohm,17,50,39,16
+    PUSHBUTTON      "100㏀",IDC_100kohm,61,50,39,16
+    PUSHBUTTON      "1㏀",IDC_1kohm,105,50,39,16
+    PUSHBUTTON      "100Ω",IDC_100ohmm,17,68,39,16
+    PUSHBUTTON      "1Ω",IDC_1ohm,61,67,39,16,WS_DISABLED
+    CONTROL         "전압",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,15,105,26,10
+    CONTROL         "전류",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,45,105,26,10
+    CONTROL         "저항",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,74,105,29,10
+    DEFPUSHBUTTON   "REQUEST",IDC_REQUEST,107,95,57,27
+    GROUPBOX        "Description",IDC_STATIC,7,91,98,32
+    CONTROL         "",IDC_SPIN,"msctls_updown32",UDS_ARROWKEYS | WS_DISABLED,149,16,16,29
+    GROUPBOX        "Property",IDC_STATIC,7,7,160,82
+    EDITTEXT        IDC_DISPlAY,8,16,139,30,ES_RIGHT | ES_AUTOHSCROLL | WS_DISABLED,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 185, 38
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "증폭률 설정"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,128,6,50,25
+    LTEXT           "Amplification rate : ",IDC_STATIC,15,13,63,8
+    EDITTEXT        IDC_RATE,79,11,43,14,ES_RIGHT | ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Ociloscope.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "Ociloscope.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_OCILOSCOPE_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_FUNC, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_POWER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 166
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_MULTMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE를 초기화할 수 없습니다. OLE 라이브러리 버전이 올바른지 확인하십시오."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Ociloscope\n\nOciloscope\n\n\nOciloscope.Document\nOciloscope.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Ociloscope"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 만듭니다.\n새로 만들기"
+    ID_FILE_OPEN            "기존 문서를 엽니다.\n열기"
+    ID_FILE_CLOSE           "활성 문서를 닫습니다.\n닫기"
+    ID_FILE_SAVE            "활성 문서를 저장합니다.\n저장"
+    ID_FILE_SAVE_AS         "활성 문서를 새 이름으로 저장합니다.\n다른 이름으로 저장"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보, 버전 번호, 저작권을 표시합니다.\n정보"
+    ID_APP_EXIT             "문서를 저장할지를 묻고 응용 프로그램을 끝냅니다.\n끝내기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE2       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE3       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE4       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE5       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE6       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE7       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE8       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE9       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE10      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE11      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE12      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE13      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE14      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE15      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE16      "현재 문서를 엽니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다.\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다.\n이전 창"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "활성 창을 여러 개의 창으로 분할합니다.\n분할"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 영역을 지웁니다.\n지우기"
+    ID_EDIT_CLEAR_ALL       "모두 지웁니다.\n모두 지우기"
+    ID_EDIT_COPY            "선택 영역을 복사하여 클립보드에 넣습니다.\n복사"
+    ID_EDIT_CUT             "선택 영역을 잘라내어 클립보드에 넣습니다.\n잘라내기"
+    ID_EDIT_FIND            "지정한 텍스트를 찾습니다.\n찾기"
+    ID_EDIT_PASTE           "클립보드 내용을 삽입합니다.\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막 작업을 반복합니다.\n반복"
+    ID_EDIT_REPLACE         "특정 텍스트를 다른 텍스트로 바꿉니다.\n바꾸기"
+    ID_EDIT_SELECT_ALL      "전체 문서를 선택합니다.\n모두 선택"
+    ID_EDIT_UNDO            "마지막 작업 실행을 취소합니다.\n실행 취소"
+    ID_EDIT_REDO            "이전에 실행 취소된 작업을 다시 실행합니다.\n다시 실행"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 표시하거나 숨깁니다.\n도구 모음 설정/해제"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 숨깁니다.\n상태 표시줄 설정/해제"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창 크기를 변경합니다."
+    AFX_IDS_SCMOVE          "창 위치를 변경합니다."
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 축소합니다."
+    AFX_IDS_SCMAXIMIZE      "창을 전체 화면 크기로 확대합니다."
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다."
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다."
+    AFX_IDS_SCCLOSE         "문서를 저장할 것인지 확인하고 활성 창을 닫습니다."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 보통 크기로 복원합니다."
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATUS_PANE1        "창 1"
+    IDS_STATUS_PANE2        "창 2"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OUTPUT_WND          "출력"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_STYLE_DESC   "Office 2007 테마 중 하나를 선택합니다."
+    IDS_RIBBON_STATUSBAR    "상태 표시줄"
+    IDS_RIBBON_VIEW         "보기"
+    IDS_BUILD_TAB           "빌드"
+    IDS_DEBUG_TAB           "디버그"
+    IDS_FIND_TAB            "찾기"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_FILE         "파일"
+    IDS_RIBBON_NEW          "새로 만들기(&N)"
+    IDS_RIBBON_OPEN         "열기(&O)..."
+    IDS_RIBBON_SAVE         "저장(&S)"
+    IDS_RIBBON_SAVEAS       "다른 이름으로 저장(&A)..."
+    IDS_RIBBON_PRINT        "인쇄"
+    IDS_RIBBON_PRINT_LABEL  "문서 미리 보기 및 인쇄"
+    IDS_RIBBON_PRINT_QUICK  "빠른 인쇄(&Q)"
+    IDS_RIBBON_PRINT_PREVIEW "인쇄 미리 보기(&V)"
+    IDS_RIBBON_PRINT_SETUP  "인쇄 설정(&U)"
+    IDS_RIBBON_CLOSE        "닫기(&C)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RIBBON_RECENT_DOCS  "최근 문서"
+    IDS_RIBBON_EXIT         "끝내기(&X)"
+    IDS_RIBBON_HOME         "홈(&H)"
+    IDS_RIBBON_CLIPBOARD    "클립보드\nd"
+    IDS_RIBBON_PASTE        "붙여넣기\nv"
+    IDS_RIBBON_CUT          "자르기\nx"
+    IDS_RIBBON_COPY         "복사\nc"
+    IDS_RIBBON_SELECTALL    "모두 선택\na"
+    IDS_RIBBON_WINDOW       "창\nw"
+    IDS_RIBBON_WINDOWS      "창\ni"
+    IDS_RIBBON_STYLE        "스타일"
+    IDS_RIBBON_STYLE_TIP    "비주얼 스타일을 수정합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EDIT_MENU           "편집"
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\Ociloscope.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "l.KOR\afxres.rc"          // 표준 구성 요소입니다.
+#if !defined(_AFXDLL)
+#include "l.KOR\afxprint.rc"                // 인쇄 미리 보기 리소스
+#include "l.KOR\afxribbon.rc"               // MFC 리본 및 컨트롤 막대 리소스
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
